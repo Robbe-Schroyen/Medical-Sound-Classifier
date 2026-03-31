@@ -4,18 +4,19 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
-pandas = "*"
-matplotlib = "*"
 seaborn = "*"
+torchcodec = "*"
+soundfile = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
 librosa = "*"
+tqdm = "*"
 torch = "*"
 torchvision = "*"
 torchaudio = "*"
+transformers = "*"
 scikit-learn = "*"
-tqdm = "*"
-torchcodec = "*"
-soundfile = "*"
 
 [dev-packages]
 ipykernel = "*"
